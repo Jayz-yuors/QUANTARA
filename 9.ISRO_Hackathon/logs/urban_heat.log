@@ -1,0 +1,582 @@
+2026-06-26 18:21:17,933 | [94mINFO    [0m | logger.py | info | Running initialize_gee()
+2026-06-26 18:21:17,933 | [94mINFO    [0m | logger.py | info | Initializing Google Earth Engine...
+2026-06-26 18:21:22,522 | [92mSUCCESS [0m | logger.py | success | Google Earth Engine Initialized Successfully
+2026-06-26 18:21:22,522 | [92mSUCCESS [0m | logger.py | success | initialize_gee completed in 4.59 sec
+2026-06-26 18:24:59,767 | [94mINFO    [0m | logger.py | info | Running initialize_gee()
+2026-06-26 18:24:59,769 | [94mINFO    [0m | logger.py | info | Initializing Google Earth Engine...
+2026-06-26 18:25:03,577 | [92mSUCCESS [0m | logger.py | success | Google Earth Engine Initialized Successfully
+2026-06-26 18:25:03,577 | [92mSUCCESS [0m | logger.py | success | initialize_gee completed in 3.81 sec
+2026-06-26 18:25:03,577 | [94mINFO    [0m | logger.py | info | Running run()
+2026-06-26 18:25:03,577 | [94mINFO    [0m | logger.py | info | Starting Urban Heat Pipeline...
+2026-06-26 18:25:03,577 | [94mINFO    [0m | logger.py | info | Running load_all()
+2026-06-26 18:25:03,577 | [94mINFO    [0m | logger.py | info | Loading datasets...
+2026-06-26 18:25:03,577 | [94mINFO    [0m | logger.py | info | Running load()
+2026-06-26 18:25:03,577 | [94mINFO    [0m | logger.py | info | Loading Landsat Collection...
+2026-06-26 18:25:03,579 | [92mSUCCESS [0m | logger.py | success | load completed in 0.00 sec
+2026-06-26 18:25:03,579 | [94mINFO    [0m | logger.py | info | Running load()
+2026-06-26 18:25:03,579 | [94mINFO    [0m | logger.py | info | Loading Sentinel-2 Collection...
+2026-06-26 18:25:03,579 | [92mSUCCESS [0m | logger.py | success | load completed in 0.00 sec
+2026-06-26 18:25:03,579 | [94mINFO    [0m | logger.py | info | Running load()
+2026-06-26 18:25:03,579 | [94mINFO    [0m | logger.py | info | Loading DEM...
+2026-06-26 18:34:42,924 | [94mINFO    [0m | logger.py | info | Running initialize_gee()
+2026-06-26 18:34:42,924 | [94mINFO    [0m | logger.py | info | Initializing Google Earth Engine...
+2026-06-26 18:34:47,451 | [92mSUCCESS [0m | logger.py | success | Google Earth Engine Initialized Successfully
+2026-06-26 18:34:47,451 | [92mSUCCESS [0m | logger.py | success | initialize_gee completed in 4.53 sec
+2026-06-26 18:34:47,460 | [94mINFO    [0m | logger.py | info | Running run()
+2026-06-26 18:34:47,460 | [94mINFO    [0m | logger.py | info | Starting Urban Heat Pipeline...
+2026-06-26 18:34:47,460 | [94mINFO    [0m | logger.py | info | Running load_all()
+2026-06-26 18:34:47,460 | [94mINFO    [0m | logger.py | info | Loading datasets...
+2026-06-26 18:34:47,460 | [94mINFO    [0m | logger.py | info | Running load()
+2026-06-26 18:34:47,460 | [94mINFO    [0m | logger.py | info | Loading Landsat Collection...
+2026-06-26 18:34:47,461 | [92mSUCCESS [0m | logger.py | success | load completed in 0.00 sec
+2026-06-26 18:34:47,461 | [94mINFO    [0m | logger.py | info | Running load()
+2026-06-26 18:34:47,461 | [94mINFO    [0m | logger.py | info | Loading Sentinel-2 Collection...
+2026-06-26 18:34:47,462 | [92mSUCCESS [0m | logger.py | success | load completed in 0.00 sec
+2026-06-26 18:34:47,462 | [94mINFO    [0m | logger.py | info | Running load()
+2026-06-26 18:34:47,462 | [94mINFO    [0m | logger.py | info | Loading DEM...
+2026-06-26 18:34:47,462 | [92mSUCCESS [0m | logger.py | success | load completed in 0.00 sec
+2026-06-26 18:34:47,462 | [94mINFO    [0m | logger.py | info | Running load()
+2026-06-26 18:34:47,463 | [94mINFO    [0m | logger.py | info | Loading ERA5 Climate Dataset...
+2026-06-26 18:34:47,463 | [92mSUCCESS [0m | logger.py | success | load completed in 0.00 sec
+2026-06-26 18:34:47,464 | [94mINFO    [0m | logger.py | info | Running load()
+2026-06-26 18:34:47,464 | [94mINFO    [0m | logger.py | info | Loading WorldPop Dataset...
+2026-06-26 18:34:47,464 | [92mSUCCESS [0m | logger.py | success | load completed in 0.00 sec
+2026-06-26 18:34:47,464 | [94mINFO    [0m | logger.py | info | Running load()
+2026-06-26 18:34:47,464 | [94mINFO    [0m | logger.py | info | Loading Urban Datasets...
+2026-06-26 18:34:47,464 | [92mSUCCESS [0m | logger.py | success | load completed in 0.00 sec
+2026-06-26 18:34:47,466 | [92mSUCCESS [0m | logger.py | success | load_all completed in 0.01 sec
+2026-06-26 18:34:47,466 | [94mINFO    [0m | logger.py | info | Running preprocess_all()
+2026-06-26 18:34:47,467 | [94mINFO    [0m | logger.py | info | Running preprocess()
+2026-06-26 18:34:47,474 | [92mSUCCESS [0m | logger.py | success | preprocess completed in 0.01 sec
+2026-06-26 18:34:47,475 | [94mINFO    [0m | logger.py | info | Running preprocess()
+2026-06-26 18:34:47,476 | [92mSUCCESS [0m | logger.py | success | preprocess completed in 0.00 sec
+2026-06-26 18:34:47,476 | [94mINFO    [0m | logger.py | info | Running preprocess()
+2026-06-26 18:34:47,476 | [92mSUCCESS [0m | logger.py | success | preprocess completed in 0.00 sec
+2026-06-26 18:34:47,476 | [94mINFO    [0m | logger.py | info | Running preprocess()
+2026-06-26 18:34:47,476 | [92mSUCCESS [0m | logger.py | success | preprocess completed in 0.00 sec
+2026-06-26 18:34:47,477 | [92mSUCCESS [0m | logger.py | success | preprocess_all completed in 0.01 sec
+2026-06-26 18:34:47,477 | [94mINFO    [0m | logger.py | info | Running generate_all()
+2026-06-26 18:34:47,477 | [94mINFO    [0m | logger.py | info | Running generate_all()
+2026-06-26 18:34:47,477 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-26 18:34:47,477 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-26 18:34:47,477 | [94mINFO    [0m | logger.py | info | Running get_surface_reflectance()
+2026-06-26 18:34:47,478 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-26 18:34:47,478 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-26 18:34:47,478 | [92mSUCCESS [0m | logger.py | success | get_surface_reflectance completed in 0.00 sec
+2026-06-26 18:34:47,479 | [94mINFO    [0m | logger.py | info | Running get_rgb()
+2026-06-26 18:34:47,479 | [94mINFO    [0m | logger.py | info | Running get_surface_reflectance()
+2026-06-26 18:34:47,479 | [92mSUCCESS [0m | logger.py | success | get_surface_reflectance completed in 0.00 sec
+2026-06-26 18:34:47,479 | [92mSUCCESS [0m | logger.py | success | get_rgb completed in 0.00 sec
+2026-06-26 18:34:47,481 | [94mINFO    [0m | logger.py | info | Running get_false_color()
+2026-06-26 18:34:47,481 | [94mINFO    [0m | logger.py | info | Running get_surface_reflectance()
+2026-06-26 18:34:47,481 | [92mSUCCESS [0m | logger.py | success | get_surface_reflectance completed in 0.00 sec
+2026-06-26 18:34:47,481 | [92mSUCCESS [0m | logger.py | success | get_false_color completed in 0.00 sec
+2026-06-26 18:34:47,481 | [94mINFO    [0m | logger.py | info | Running get_indices()
+2026-06-26 18:34:47,481 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-26 18:34:47,481 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-26 18:34:47,482 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-26 18:34:47,482 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-26 18:34:47,482 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-26 18:34:47,482 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-26 18:34:47,483 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-26 18:34:47,483 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-26 18:34:47,483 | [92mSUCCESS [0m | logger.py | success | get_indices completed in 0.00 sec
+2026-06-26 18:34:47,484 | [94mINFO    [0m | logger.py | info | Running get_lst()
+2026-06-26 18:34:47,484 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-26 18:34:47,484 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-26 18:34:47,485 | [92mSUCCESS [0m | logger.py | success | get_lst completed in 0.00 sec
+2026-06-26 18:34:47,485 | [94mINFO    [0m | logger.py | info | Running get_albedo()
+2026-06-26 18:34:47,488 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-26 18:34:47,488 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-26 18:34:47,494 | [92mSUCCESS [0m | logger.py | success | get_albedo completed in 0.01 sec
+2026-06-26 18:34:47,495 | [94mINFO    [0m | logger.py | info | Running get_heat_cube()
+2026-06-26 18:34:47,495 | [94mINFO    [0m | logger.py | info | Running get_indices()
+2026-06-26 18:34:47,496 | [92mSUCCESS [0m | logger.py | success | get_indices completed in 0.00 sec
+2026-06-26 18:34:47,496 | [94mINFO    [0m | logger.py | info | Running get_lst()
+2026-06-26 18:34:47,497 | [92mSUCCESS [0m | logger.py | success | get_lst completed in 0.00 sec
+2026-06-26 18:34:47,497 | [94mINFO    [0m | logger.py | info | Running get_albedo()
+2026-06-26 18:34:47,498 | [92mSUCCESS [0m | logger.py | success | get_albedo completed in 0.00 sec
+2026-06-26 18:34:47,500 | [92mSUCCESS [0m | logger.py | success | get_heat_cube completed in 0.00 sec
+2026-06-26 18:34:47,500 | [92mSUCCESS [0m | logger.py | success | generate_all completed in 0.02 sec
+2026-06-26 18:34:47,500 | [94mINFO    [0m | logger.py | info | Running generate_all()
+2026-06-26 18:34:47,500 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-26 18:34:47,502 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-26 18:34:47,504 | [94mINFO    [0m | logger.py | info | Running get_surface_reflectance()
+2026-06-26 18:34:47,505 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-26 18:34:47,506 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-26 18:34:47,507 | [92mSUCCESS [0m | logger.py | success | get_surface_reflectance completed in 0.00 sec
+2026-06-26 18:34:47,508 | [94mINFO    [0m | logger.py | info | Running get_rgb()
+2026-06-26 18:34:47,508 | [94mINFO    [0m | logger.py | info | Running get_surface_reflectance()
+2026-06-26 18:34:47,508 | [92mSUCCESS [0m | logger.py | success | get_surface_reflectance completed in 0.00 sec
+2026-06-26 18:34:47,509 | [92mSUCCESS [0m | logger.py | success | get_rgb completed in 0.00 sec
+2026-06-26 18:34:47,509 | [94mINFO    [0m | logger.py | info | Running get_false_color()
+2026-06-26 18:34:47,510 | [94mINFO    [0m | logger.py | info | Running get_surface_reflectance()
+2026-06-26 18:34:47,511 | [92mSUCCESS [0m | logger.py | success | get_surface_reflectance completed in 0.00 sec
+2026-06-26 18:34:47,513 | [92mSUCCESS [0m | logger.py | success | get_false_color completed in 0.00 sec
+2026-06-26 18:34:47,513 | [94mINFO    [0m | logger.py | info | Running get_indices()
+2026-06-26 18:34:47,514 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-26 18:34:47,514 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-26 18:34:47,515 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-26 18:34:47,515 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-26 18:34:47,518 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-26 18:34:47,518 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-26 18:34:47,519 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-26 18:34:47,520 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-26 18:34:47,522 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-26 18:34:47,522 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-26 18:34:47,526 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-26 18:34:47,528 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-26 18:34:47,529 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-26 18:34:47,529 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-26 18:34:47,529 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-26 18:34:47,529 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-26 18:34:47,529 | [92mSUCCESS [0m | logger.py | success | get_indices completed in 0.02 sec
+2026-06-26 18:34:47,531 | [94mINFO    [0m | logger.py | info | Running get_feature_stack()
+2026-06-26 18:34:47,531 | [94mINFO    [0m | logger.py | info | Running get_indices()
+2026-06-26 18:34:47,531 | [92mSUCCESS [0m | logger.py | success | get_indices completed in 0.00 sec
+2026-06-26 18:34:47,531 | [92mSUCCESS [0m | logger.py | success | get_feature_stack completed in 0.00 sec
+2026-06-26 18:34:47,531 | [92mSUCCESS [0m | logger.py | success | generate_all completed in 0.03 sec
+2026-06-26 18:34:47,531 | [94mINFO    [0m | logger.py | info | Running generate_all()
+2026-06-26 18:34:47,531 | [94mINFO    [0m | logger.py | info | Running get_elevation()
+2026-06-26 18:34:47,531 | [92mSUCCESS [0m | logger.py | success | get_elevation completed in 0.00 sec
+2026-06-26 18:34:47,531 | [94mINFO    [0m | logger.py | info | Running get_slope()
+2026-06-26 18:34:47,531 | [92mSUCCESS [0m | logger.py | success | get_slope completed in 0.00 sec
+2026-06-26 18:34:47,531 | [94mINFO    [0m | logger.py | info | Running get_aspect()
+2026-06-26 18:34:47,531 | [92mSUCCESS [0m | logger.py | success | get_aspect completed in 0.00 sec
+2026-06-26 18:34:47,531 | [94mINFO    [0m | logger.py | info | Running get_hillshade()
+2026-06-26 18:34:47,531 | [92mSUCCESS [0m | logger.py | success | get_hillshade completed in 0.00 sec
+2026-06-26 18:34:47,531 | [94mINFO    [0m | logger.py | info | Running get_tri()
+2026-06-26 18:34:47,531 | [94mINFO    [0m | logger.py | info | Running get_slope()
+2026-06-26 18:34:47,531 | [92mSUCCESS [0m | logger.py | success | get_slope completed in 0.00 sec
+2026-06-26 18:34:47,531 | [92mSUCCESS [0m | logger.py | success | get_tri completed in 0.00 sec
+2026-06-26 18:34:47,538 | [94mINFO    [0m | logger.py | info | Running get_tpi()
+2026-06-26 18:34:47,540 | [92mSUCCESS [0m | logger.py | success | get_tpi completed in 0.00 sec
+2026-06-26 18:34:47,542 | [94mINFO    [0m | logger.py | info | Running get_feature_stack()
+2026-06-26 18:34:47,542 | [94mINFO    [0m | logger.py | info | Running get_elevation()
+2026-06-26 18:34:47,543 | [92mSUCCESS [0m | logger.py | success | get_elevation completed in 0.00 sec
+2026-06-26 18:34:47,543 | [94mINFO    [0m | logger.py | info | Running get_slope()
+2026-06-26 18:34:47,545 | [92mSUCCESS [0m | logger.py | success | get_slope completed in 0.00 sec
+2026-06-26 18:34:47,545 | [94mINFO    [0m | logger.py | info | Running get_aspect()
+2026-06-26 18:34:47,547 | [92mSUCCESS [0m | logger.py | success | get_aspect completed in 0.00 sec
+2026-06-26 18:34:47,547 | [94mINFO    [0m | logger.py | info | Running get_hillshade()
+2026-06-26 18:34:47,547 | [92mSUCCESS [0m | logger.py | success | get_hillshade completed in 0.00 sec
+2026-06-26 18:34:47,547 | [94mINFO    [0m | logger.py | info | Running get_tri()
+2026-06-26 18:34:47,547 | [92mSUCCESS [0m | logger.py | success | get_tri completed in 0.00 sec
+2026-06-26 18:34:47,547 | [94mINFO    [0m | logger.py | info | Running get_tpi()
+2026-06-26 18:34:47,550 | [92mSUCCESS [0m | logger.py | success | get_tpi completed in 0.00 sec
+2026-06-26 18:34:47,550 | [92mSUCCESS [0m | logger.py | success | get_feature_stack completed in 0.01 sec
+2026-06-26 18:34:47,550 | [92mSUCCESS [0m | logger.py | success | generate_all completed in 0.02 sec
+2026-06-26 18:34:47,550 | [94mINFO    [0m | logger.py | info | Running generate_all()
+2026-06-26 18:34:47,550 | [94mINFO    [0m | logger.py | info | Running get_temperature()
+2026-06-26 18:34:47,550 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-26 18:34:47,550 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-26 18:34:47,550 | [92mSUCCESS [0m | logger.py | success | get_temperature completed in 0.00 sec
+2026-06-26 18:34:47,555 | [94mINFO    [0m | logger.py | info | Running get_humidity()
+2026-06-26 18:34:47,555 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-26 18:34:47,555 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-26 18:34:47,556 | [92mSUCCESS [0m | logger.py | success | get_humidity completed in 0.00 sec
+2026-06-26 18:34:47,557 | [94mINFO    [0m | logger.py | info | Running get_wind_speed()
+2026-06-26 18:34:47,558 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-26 18:34:47,559 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-26 18:34:47,560 | [92mSUCCESS [0m | logger.py | success | get_wind_speed completed in 0.00 sec
+2026-06-26 18:34:47,560 | [94mINFO    [0m | logger.py | info | Running get_wind_direction()
+2026-06-26 18:34:47,561 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-26 18:34:47,561 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-26 18:34:47,562 | [92mSUCCESS [0m | logger.py | success | get_wind_direction completed in 0.00 sec
+2026-06-26 18:34:47,562 | [94mINFO    [0m | logger.py | info | Running get_pressure()
+2026-06-26 18:34:47,562 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-26 18:34:47,564 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-26 18:34:47,566 | [92mSUCCESS [0m | logger.py | success | get_pressure completed in 0.00 sec
+2026-06-26 18:34:47,566 | [94mINFO    [0m | logger.py | info | Running get_precipitation()
+2026-06-26 18:34:47,566 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-26 18:34:47,566 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-26 18:34:47,566 | [92mSUCCESS [0m | logger.py | success | get_precipitation completed in 0.00 sec
+2026-06-26 18:34:47,566 | [94mINFO    [0m | logger.py | info | Running get_solar_radiation()
+2026-06-26 18:34:47,566 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-26 18:34:47,566 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-26 18:34:47,566 | [92mSUCCESS [0m | logger.py | success | get_solar_radiation completed in 0.00 sec
+2026-06-26 18:34:47,566 | [94mINFO    [0m | logger.py | info | Running get_feature_stack()
+2026-06-26 18:34:47,566 | [94mINFO    [0m | logger.py | info | Running get_temperature()
+2026-06-26 18:34:47,566 | [92mSUCCESS [0m | logger.py | success | get_temperature completed in 0.00 sec
+2026-06-26 18:34:47,566 | [94mINFO    [0m | logger.py | info | Running get_humidity()
+2026-06-26 18:34:47,566 | [92mSUCCESS [0m | logger.py | success | get_humidity completed in 0.00 sec
+2026-06-26 18:34:47,571 | [94mINFO    [0m | logger.py | info | Running get_wind_speed()
+2026-06-26 18:34:47,571 | [92mSUCCESS [0m | logger.py | success | get_wind_speed completed in 0.00 sec
+2026-06-26 18:34:47,571 | [94mINFO    [0m | logger.py | info | Running get_wind_direction()
+2026-06-26 18:34:47,571 | [92mSUCCESS [0m | logger.py | success | get_wind_direction completed in 0.00 sec
+2026-06-26 18:34:47,572 | [94mINFO    [0m | logger.py | info | Running get_pressure()
+2026-06-26 18:34:47,573 | [92mSUCCESS [0m | logger.py | success | get_pressure completed in 0.00 sec
+2026-06-26 18:34:47,573 | [94mINFO    [0m | logger.py | info | Running get_precipitation()
+2026-06-26 18:34:47,574 | [92mSUCCESS [0m | logger.py | success | get_precipitation completed in 0.00 sec
+2026-06-26 18:34:47,575 | [94mINFO    [0m | logger.py | info | Running get_solar_radiation()
+2026-06-26 18:34:47,576 | [92mSUCCESS [0m | logger.py | success | get_solar_radiation completed in 0.00 sec
+2026-06-26 18:34:47,576 | [92mSUCCESS [0m | logger.py | success | get_feature_stack completed in 0.01 sec
+2026-06-26 18:34:47,578 | [92mSUCCESS [0m | logger.py | success | generate_all completed in 0.03 sec
+2026-06-26 18:34:47,578 | [94mINFO    [0m | logger.py | info | Running generate_all()
+2026-06-26 18:34:47,578 | [94mINFO    [0m | logger.py | info | Running get_population()
+2026-06-26 18:34:47,578 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-26 18:34:47,578 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-26 18:34:47,581 | [92mSUCCESS [0m | logger.py | success | get_population completed in 0.00 sec
+2026-06-26 18:34:47,581 | [94mINFO    [0m | logger.py | info | Running get_population_density()
+2026-06-26 18:34:47,581 | [94mINFO    [0m | logger.py | info | Running get_population()
+2026-06-26 18:34:47,581 | [92mSUCCESS [0m | logger.py | success | get_population completed in 0.00 sec
+2026-06-26 18:34:47,581 | [92mSUCCESS [0m | logger.py | success | get_population_density completed in 0.00 sec
+2026-06-26 18:34:47,581 | [94mINFO    [0m | logger.py | info | Running get_urban_population()
+2026-06-26 18:34:47,581 | [94mINFO    [0m | logger.py | info | Running get_population()
+2026-06-26 18:34:47,581 | [92mSUCCESS [0m | logger.py | success | get_population completed in 0.00 sec
+2026-06-26 18:34:47,581 | [94mINFO    [0m | logger.py | info | Running get_population()
+2026-06-26 18:34:47,581 | [92mSUCCESS [0m | logger.py | success | get_population completed in 0.00 sec
+2026-06-26 18:34:47,581 | [92mSUCCESS [0m | logger.py | success | get_urban_population completed in 0.00 sec
+2026-06-26 18:34:47,581 | [94mINFO    [0m | logger.py | info | Running get_population_exposure()
+2026-06-26 18:34:47,581 | [94mINFO    [0m | logger.py | info | Running get_population_density()
+2026-06-26 18:34:47,581 | [92mSUCCESS [0m | logger.py | success | get_population_density completed in 0.00 sec
+2026-06-26 18:34:47,581 | [92mSUCCESS [0m | logger.py | success | get_population_exposure completed in 0.00 sec
+2026-06-26 18:34:47,581 | [94mINFO    [0m | logger.py | info | Running get_feature_stack()
+2026-06-26 18:34:47,581 | [94mINFO    [0m | logger.py | info | Running get_population()
+2026-06-26 18:34:47,581 | [92mSUCCESS [0m | logger.py | success | get_population completed in 0.00 sec
+2026-06-26 18:34:47,581 | [94mINFO    [0m | logger.py | info | Running get_population_density()
+2026-06-26 18:34:47,581 | [92mSUCCESS [0m | logger.py | success | get_population_density completed in 0.00 sec
+2026-06-26 18:34:47,581 | [94mINFO    [0m | logger.py | info | Running get_urban_population()
+2026-06-26 18:34:47,587 | [92mSUCCESS [0m | logger.py | success | get_urban_population completed in 0.00 sec
+2026-06-26 18:34:47,588 | [94mINFO    [0m | logger.py | info | Running get_population_exposure()
+2026-06-26 18:34:47,588 | [92mSUCCESS [0m | logger.py | success | get_population_exposure completed in 0.00 sec
+2026-06-26 18:34:47,588 | [92mSUCCESS [0m | logger.py | success | get_feature_stack completed in 0.00 sec
+2026-06-26 18:34:47,589 | [92mSUCCESS [0m | logger.py | success | generate_all completed in 0.01 sec
+2026-06-26 18:34:47,589 | [94mINFO    [0m | logger.py | info | Running generate_all()
+2026-06-26 18:34:47,590 | [94mINFO    [0m | logger.py | info | Running get_builtup()
+2026-06-26 18:34:47,591 | [92mSUCCESS [0m | logger.py | success | get_builtup completed in 0.00 sec
+2026-06-26 18:34:47,592 | [94mINFO    [0m | logger.py | info | Running get_building_density()
+2026-06-26 18:34:47,592 | [94mINFO    [0m | logger.py | info | Running get_builtup()
+2026-06-26 18:34:47,592 | [92mSUCCESS [0m | logger.py | success | get_builtup completed in 0.00 sec
+2026-06-26 18:34:47,592 | [92mSUCCESS [0m | logger.py | success | get_building_density completed in 0.00 sec
+2026-06-26 18:34:47,592 | [94mINFO    [0m | logger.py | info | Running get_road_density()
+2026-06-26 18:34:47,593 | [92mSUCCESS [0m | logger.py | success | get_road_density completed in 0.00 sec
+2026-06-26 18:34:47,593 | [94mINFO    [0m | logger.py | info | Running get_night_lights()
+2026-06-26 18:34:47,593 | [92mSUCCESS [0m | logger.py | success | get_night_lights completed in 0.00 sec
+2026-06-26 18:34:47,593 | [94mINFO    [0m | logger.py | info | Running get_urban_morphology()
+2026-06-26 18:34:47,593 | [94mINFO    [0m | logger.py | info | Running get_builtup()
+2026-06-26 18:34:47,594 | [92mSUCCESS [0m | logger.py | success | get_builtup completed in 0.00 sec
+2026-06-26 18:34:47,596 | [94mINFO    [0m | logger.py | info | Running get_builtup()
+2026-06-26 18:34:47,596 | [92mSUCCESS [0m | logger.py | success | get_builtup completed in 0.00 sec
+2026-06-26 18:34:47,596 | [92mSUCCESS [0m | logger.py | success | get_urban_morphology completed in 0.00 sec
+2026-06-26 18:34:47,596 | [94mINFO    [0m | logger.py | info | Running get_impervious_surface()
+2026-06-26 18:34:47,596 | [94mINFO    [0m | logger.py | info | Running get_builtup()
+2026-06-26 18:34:47,596 | [92mSUCCESS [0m | logger.py | success | get_builtup completed in 0.00 sec
+2026-06-26 18:34:47,596 | [94mINFO    [0m | logger.py | info | Running get_night_lights()
+2026-06-26 18:34:47,596 | [92mSUCCESS [0m | logger.py | success | get_night_lights completed in 0.00 sec
+2026-06-26 18:34:47,596 | [92mSUCCESS [0m | logger.py | success | get_impervious_surface completed in 0.00 sec
+2026-06-26 18:34:47,596 | [94mINFO    [0m | logger.py | info | Running get_feature_stack()
+2026-06-26 18:34:47,596 | [94mINFO    [0m | logger.py | info | Running get_builtup()
+2026-06-26 18:34:47,596 | [92mSUCCESS [0m | logger.py | success | get_builtup completed in 0.00 sec
+2026-06-26 18:34:47,596 | [94mINFO    [0m | logger.py | info | Running get_building_density()
+2026-06-26 18:34:47,596 | [92mSUCCESS [0m | logger.py | success | get_building_density completed in 0.00 sec
+2026-06-26 18:34:47,596 | [94mINFO    [0m | logger.py | info | Running get_road_density()
+2026-06-26 18:34:47,596 | [92mSUCCESS [0m | logger.py | success | get_road_density completed in 0.00 sec
+2026-06-26 18:34:47,596 | [94mINFO    [0m | logger.py | info | Running get_night_lights()
+2026-06-26 18:34:47,596 | [92mSUCCESS [0m | logger.py | success | get_night_lights completed in 0.00 sec
+2026-06-26 18:34:47,596 | [94mINFO    [0m | logger.py | info | Running get_urban_morphology()
+2026-06-26 18:34:47,596 | [92mSUCCESS [0m | logger.py | success | get_urban_morphology completed in 0.00 sec
+2026-06-26 18:34:47,596 | [94mINFO    [0m | logger.py | info | Running get_impervious_surface()
+2026-06-26 18:34:47,596 | [92mSUCCESS [0m | logger.py | success | get_impervious_surface completed in 0.00 sec
+2026-06-26 18:34:47,596 | [92mSUCCESS [0m | logger.py | success | get_feature_stack completed in 0.00 sec
+2026-06-26 18:34:47,596 | [92mSUCCESS [0m | logger.py | success | generate_all completed in 0.01 sec
+2026-06-26 18:34:47,596 | [92mSUCCESS [0m | logger.py | success | generate_all completed in 0.13 sec
+2026-06-26 18:34:47,596 | [94mINFO    [0m | logger.py | info | Running build_feature_cube()
+2026-06-26 18:34:47,596 | [94mINFO    [0m | logger.py | info | Running get_feature_stack()
+2026-06-26 18:34:47,604 | [94mINFO    [0m | logger.py | info | Running get_indices()
+2026-06-26 18:34:47,604 | [92mSUCCESS [0m | logger.py | success | get_indices completed in 0.00 sec
+2026-06-26 18:34:47,604 | [92mSUCCESS [0m | logger.py | success | get_feature_stack completed in 0.00 sec
+2026-06-26 18:34:47,605 | [94mINFO    [0m | logger.py | info | Running get_feature_stack()
+2026-06-26 18:34:47,606 | [92mSUCCESS [0m | logger.py | success | get_feature_stack completed in 0.00 sec
+2026-06-26 18:34:47,606 | [94mINFO    [0m | logger.py | info | Running get_feature_stack()
+2026-06-26 18:34:47,607 | [92mSUCCESS [0m | logger.py | success | get_feature_stack completed in 0.00 sec
+2026-06-26 18:34:47,607 | [94mINFO    [0m | logger.py | info | Running get_feature_stack()
+2026-06-26 18:34:47,608 | [92mSUCCESS [0m | logger.py | success | get_feature_stack completed in 0.00 sec
+2026-06-26 18:34:47,608 | [94mINFO    [0m | logger.py | info | Running get_feature_stack()
+2026-06-26 18:34:47,609 | [92mSUCCESS [0m | logger.py | success | get_feature_stack completed in 0.00 sec
+2026-06-26 18:34:47,609 | [94mINFO    [0m | logger.py | info | Running get_feature_stack()
+2026-06-26 18:34:47,610 | [92mSUCCESS [0m | logger.py | success | get_feature_stack completed in 0.00 sec
+2026-06-26 18:34:47,610 | [92mSUCCESS [0m | logger.py | success | build_feature_cube completed in 0.01 sec
+2026-06-26 18:34:47,610 | [94mINFO    [0m | logger.py | info | Pipeline Completed Successfully.
+2026-06-26 18:34:47,610 | [92mSUCCESS [0m | logger.py | success | run completed in 0.15 sec
+2026-06-27 00:34:14,312 | [94mINFO    [0m | logger.py | info | Running initialize_gee()
+2026-06-27 00:34:14,312 | [94mINFO    [0m | logger.py | info | Initializing Google Earth Engine...
+2026-06-27 00:34:29,161 | [92mSUCCESS [0m | logger.py | success | Google Earth Engine Initialized Successfully
+2026-06-27 00:34:29,161 | [92mSUCCESS [0m | logger.py | success | initialize_gee completed in 14.85 sec
+2026-06-27 00:34:29,161 | [94mINFO    [0m | logger.py | info | Running run()
+2026-06-27 00:34:29,161 | [94mINFO    [0m | logger.py | info | Starting Urban Heat Pipeline...
+2026-06-27 00:34:29,161 | [94mINFO    [0m | logger.py | info | Running load_all()
+2026-06-27 00:34:29,161 | [94mINFO    [0m | logger.py | info | Loading datasets...
+2026-06-27 00:34:29,165 | [94mINFO    [0m | logger.py | info | Running load()
+2026-06-27 00:34:29,165 | [94mINFO    [0m | logger.py | info | Loading Landsat Collection...
+2026-06-27 00:34:29,165 | [92mSUCCESS [0m | logger.py | success | load completed in 0.00 sec
+2026-06-27 00:34:29,165 | [94mINFO    [0m | logger.py | info | Running load()
+2026-06-27 00:34:29,165 | [94mINFO    [0m | logger.py | info | Loading Sentinel-2 Collection...
+2026-06-27 00:34:29,165 | [92mSUCCESS [0m | logger.py | success | load completed in 0.00 sec
+2026-06-27 00:34:29,165 | [94mINFO    [0m | logger.py | info | Running load()
+2026-06-27 00:34:29,165 | [94mINFO    [0m | logger.py | info | Loading DEM...
+2026-06-27 00:34:29,165 | [92mSUCCESS [0m | logger.py | success | load completed in 0.00 sec
+2026-06-27 00:34:29,165 | [94mINFO    [0m | logger.py | info | Running load()
+2026-06-27 00:34:29,165 | [94mINFO    [0m | logger.py | info | Loading ERA5 Climate Dataset...
+2026-06-27 00:34:29,165 | [92mSUCCESS [0m | logger.py | success | load completed in 0.00 sec
+2026-06-27 00:34:29,165 | [94mINFO    [0m | logger.py | info | Running load()
+2026-06-27 00:34:29,165 | [94mINFO    [0m | logger.py | info | Loading WorldPop Dataset...
+2026-06-27 00:34:29,165 | [92mSUCCESS [0m | logger.py | success | load completed in 0.00 sec
+2026-06-27 00:34:29,165 | [94mINFO    [0m | logger.py | info | Running load()
+2026-06-27 00:34:29,165 | [94mINFO    [0m | logger.py | info | Loading Urban Datasets...
+2026-06-27 00:34:29,165 | [92mSUCCESS [0m | logger.py | success | load completed in 0.00 sec
+2026-06-27 00:34:29,165 | [92mSUCCESS [0m | logger.py | success | load_all completed in 0.00 sec
+2026-06-27 00:34:29,165 | [94mINFO    [0m | logger.py | info | Running preprocess_all()
+2026-06-27 00:34:29,165 | [94mINFO    [0m | logger.py | info | Running preprocess()
+2026-06-27 00:34:29,165 | [92mSUCCESS [0m | logger.py | success | preprocess completed in 0.00 sec
+2026-06-27 00:34:29,170 | [94mINFO    [0m | logger.py | info | Running preprocess()
+2026-06-27 00:34:29,171 | [92mSUCCESS [0m | logger.py | success | preprocess completed in 0.00 sec
+2026-06-27 00:34:29,171 | [94mINFO    [0m | logger.py | info | Running preprocess()
+2026-06-27 00:34:29,171 | [92mSUCCESS [0m | logger.py | success | preprocess completed in 0.00 sec
+2026-06-27 00:34:29,171 | [94mINFO    [0m | logger.py | info | Running preprocess()
+2026-06-27 00:34:29,172 | [92mSUCCESS [0m | logger.py | success | preprocess completed in 0.00 sec
+2026-06-27 00:34:29,172 | [92mSUCCESS [0m | logger.py | success | preprocess_all completed in 0.00 sec
+2026-06-27 00:34:29,172 | [94mINFO    [0m | logger.py | info | Running generate_all()
+2026-06-27 00:34:29,173 | [94mINFO    [0m | logger.py | info | Running generate_all()
+2026-06-27 00:34:29,173 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-27 00:34:29,173 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-27 00:34:29,173 | [94mINFO    [0m | logger.py | info | Running get_surface_reflectance()
+2026-06-27 00:34:29,173 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-27 00:34:29,173 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-27 00:34:29,173 | [92mSUCCESS [0m | logger.py | success | get_surface_reflectance completed in 0.00 sec
+2026-06-27 00:34:29,173 | [94mINFO    [0m | logger.py | info | Running get_rgb()
+2026-06-27 00:34:29,174 | [94mINFO    [0m | logger.py | info | Running get_surface_reflectance()
+2026-06-27 00:34:29,174 | [92mSUCCESS [0m | logger.py | success | get_surface_reflectance completed in 0.00 sec
+2026-06-27 00:34:29,174 | [92mSUCCESS [0m | logger.py | success | get_rgb completed in 0.00 sec
+2026-06-27 00:34:29,174 | [94mINFO    [0m | logger.py | info | Running get_false_color()
+2026-06-27 00:34:29,174 | [94mINFO    [0m | logger.py | info | Running get_surface_reflectance()
+2026-06-27 00:34:29,174 | [92mSUCCESS [0m | logger.py | success | get_surface_reflectance completed in 0.00 sec
+2026-06-27 00:34:29,175 | [92mSUCCESS [0m | logger.py | success | get_false_color completed in 0.00 sec
+2026-06-27 00:34:29,175 | [94mINFO    [0m | logger.py | info | Running get_indices()
+2026-06-27 00:34:29,175 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-27 00:34:29,175 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-27 00:34:29,176 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-27 00:34:29,176 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-27 00:34:29,177 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-27 00:34:29,177 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-27 00:34:29,178 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-27 00:34:29,179 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-27 00:34:29,181 | [92mSUCCESS [0m | logger.py | success | get_indices completed in 0.01 sec
+2026-06-27 00:34:29,181 | [94mINFO    [0m | logger.py | info | Running get_lst()
+2026-06-27 00:34:29,181 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-27 00:34:29,181 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-27 00:34:29,181 | [92mSUCCESS [0m | logger.py | success | get_lst completed in 0.00 sec
+2026-06-27 00:34:29,181 | [94mINFO    [0m | logger.py | info | Running get_albedo()
+2026-06-27 00:34:29,182 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-27 00:34:29,182 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-27 00:34:29,182 | [92mSUCCESS [0m | logger.py | success | get_albedo completed in 0.00 sec
+2026-06-27 00:34:29,183 | [94mINFO    [0m | logger.py | info | Running get_heat_cube()
+2026-06-27 00:34:29,184 | [94mINFO    [0m | logger.py | info | Running get_indices()
+2026-06-27 00:34:29,184 | [92mSUCCESS [0m | logger.py | success | get_indices completed in 0.00 sec
+2026-06-27 00:34:29,184 | [94mINFO    [0m | logger.py | info | Running get_lst()
+2026-06-27 00:34:29,184 | [92mSUCCESS [0m | logger.py | success | get_lst completed in 0.00 sec
+2026-06-27 00:34:29,184 | [94mINFO    [0m | logger.py | info | Running get_albedo()
+2026-06-27 00:34:29,186 | [92mSUCCESS [0m | logger.py | success | get_albedo completed in 0.00 sec
+2026-06-27 00:34:29,186 | [92mSUCCESS [0m | logger.py | success | get_heat_cube completed in 0.00 sec
+2026-06-27 00:34:29,186 | [92mSUCCESS [0m | logger.py | success | generate_all completed in 0.02 sec
+2026-06-27 00:34:29,186 | [94mINFO    [0m | logger.py | info | Running generate_all()
+2026-06-27 00:34:29,186 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-27 00:34:29,186 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-27 00:34:29,192 | [94mINFO    [0m | logger.py | info | Running get_surface_reflectance()
+2026-06-27 00:34:29,192 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-27 00:34:29,192 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-27 00:34:29,192 | [92mSUCCESS [0m | logger.py | success | get_surface_reflectance completed in 0.00 sec
+2026-06-27 00:34:29,192 | [94mINFO    [0m | logger.py | info | Running get_rgb()
+2026-06-27 00:34:29,192 | [94mINFO    [0m | logger.py | info | Running get_surface_reflectance()
+2026-06-27 00:34:29,192 | [92mSUCCESS [0m | logger.py | success | get_surface_reflectance completed in 0.00 sec
+2026-06-27 00:34:29,192 | [92mSUCCESS [0m | logger.py | success | get_rgb completed in 0.00 sec
+2026-06-27 00:34:29,192 | [94mINFO    [0m | logger.py | info | Running get_false_color()
+2026-06-27 00:34:29,192 | [94mINFO    [0m | logger.py | info | Running get_surface_reflectance()
+2026-06-27 00:34:29,194 | [92mSUCCESS [0m | logger.py | success | get_surface_reflectance completed in 0.00 sec
+2026-06-27 00:34:29,194 | [92mSUCCESS [0m | logger.py | success | get_false_color completed in 0.00 sec
+2026-06-27 00:34:29,194 | [94mINFO    [0m | logger.py | info | Running get_indices()
+2026-06-27 00:34:29,194 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-27 00:34:29,194 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-27 00:34:29,196 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-27 00:34:29,196 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-27 00:34:29,196 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-27 00:34:29,197 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-27 00:34:29,197 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-27 00:34:29,197 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-27 00:34:29,197 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-27 00:34:29,197 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-27 00:34:29,200 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-27 00:34:29,200 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-27 00:34:29,200 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-27 00:34:29,200 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-27 00:34:29,200 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-27 00:34:29,200 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-27 00:34:29,200 | [92mSUCCESS [0m | logger.py | success | get_indices completed in 0.01 sec
+2026-06-27 00:34:29,200 | [94mINFO    [0m | logger.py | info | Running get_feature_stack()
+2026-06-27 00:34:29,200 | [94mINFO    [0m | logger.py | info | Running get_indices()
+2026-06-27 00:34:29,200 | [92mSUCCESS [0m | logger.py | success | get_indices completed in 0.00 sec
+2026-06-27 00:34:29,202 | [92mSUCCESS [0m | logger.py | success | get_feature_stack completed in 0.00 sec
+2026-06-27 00:34:29,202 | [92mSUCCESS [0m | logger.py | success | generate_all completed in 0.01 sec
+2026-06-27 00:34:29,202 | [94mINFO    [0m | logger.py | info | Running generate_all()
+2026-06-27 00:34:29,202 | [94mINFO    [0m | logger.py | info | Running get_elevation()
+2026-06-27 00:34:29,202 | [92mSUCCESS [0m | logger.py | success | get_elevation completed in 0.00 sec
+2026-06-27 00:34:29,202 | [94mINFO    [0m | logger.py | info | Running get_slope()
+2026-06-27 00:34:29,202 | [92mSUCCESS [0m | logger.py | success | get_slope completed in 0.00 sec
+2026-06-27 00:34:29,202 | [94mINFO    [0m | logger.py | info | Running get_aspect()
+2026-06-27 00:34:29,202 | [92mSUCCESS [0m | logger.py | success | get_aspect completed in 0.00 sec
+2026-06-27 00:34:29,204 | [94mINFO    [0m | logger.py | info | Running get_hillshade()
+2026-06-27 00:34:29,204 | [92mSUCCESS [0m | logger.py | success | get_hillshade completed in 0.00 sec
+2026-06-27 00:34:29,204 | [94mINFO    [0m | logger.py | info | Running get_tri()
+2026-06-27 00:34:29,204 | [94mINFO    [0m | logger.py | info | Running get_slope()
+2026-06-27 00:34:29,204 | [92mSUCCESS [0m | logger.py | success | get_slope completed in 0.00 sec
+2026-06-27 00:34:29,204 | [92mSUCCESS [0m | logger.py | success | get_tri completed in 0.00 sec
+2026-06-27 00:34:29,204 | [94mINFO    [0m | logger.py | info | Running get_tpi()
+2026-06-27 00:34:29,206 | [92mSUCCESS [0m | logger.py | success | get_tpi completed in 0.00 sec
+2026-06-27 00:34:29,206 | [94mINFO    [0m | logger.py | info | Running get_feature_stack()
+2026-06-27 00:34:29,206 | [94mINFO    [0m | logger.py | info | Running get_elevation()
+2026-06-27 00:34:29,206 | [92mSUCCESS [0m | logger.py | success | get_elevation completed in 0.00 sec
+2026-06-27 00:34:29,206 | [94mINFO    [0m | logger.py | info | Running get_slope()
+2026-06-27 00:34:29,206 | [92mSUCCESS [0m | logger.py | success | get_slope completed in 0.00 sec
+2026-06-27 00:34:29,206 | [94mINFO    [0m | logger.py | info | Running get_aspect()
+2026-06-27 00:34:29,206 | [92mSUCCESS [0m | logger.py | success | get_aspect completed in 0.00 sec
+2026-06-27 00:34:29,206 | [94mINFO    [0m | logger.py | info | Running get_hillshade()
+2026-06-27 00:34:29,206 | [92mSUCCESS [0m | logger.py | success | get_hillshade completed in 0.00 sec
+2026-06-27 00:34:29,206 | [94mINFO    [0m | logger.py | info | Running get_tri()
+2026-06-27 00:34:29,206 | [92mSUCCESS [0m | logger.py | success | get_tri completed in 0.00 sec
+2026-06-27 00:34:29,208 | [94mINFO    [0m | logger.py | info | Running get_tpi()
+2026-06-27 00:34:29,208 | [92mSUCCESS [0m | logger.py | success | get_tpi completed in 0.00 sec
+2026-06-27 00:34:29,208 | [92mSUCCESS [0m | logger.py | success | get_feature_stack completed in 0.00 sec
+2026-06-27 00:34:29,208 | [92mSUCCESS [0m | logger.py | success | generate_all completed in 0.01 sec
+2026-06-27 00:34:29,208 | [94mINFO    [0m | logger.py | info | Running generate_all()
+2026-06-27 00:34:29,208 | [94mINFO    [0m | logger.py | info | Running get_temperature()
+2026-06-27 00:34:29,208 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-27 00:34:29,208 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-27 00:34:29,208 | [92mSUCCESS [0m | logger.py | success | get_temperature completed in 0.00 sec
+2026-06-27 00:34:29,208 | [94mINFO    [0m | logger.py | info | Running get_humidity()
+2026-06-27 00:34:29,209 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-27 00:34:29,209 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-27 00:34:29,209 | [92mSUCCESS [0m | logger.py | success | get_humidity completed in 0.00 sec
+2026-06-27 00:34:29,209 | [94mINFO    [0m | logger.py | info | Running get_wind_speed()
+2026-06-27 00:34:29,209 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-27 00:34:29,209 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-27 00:34:29,211 | [92mSUCCESS [0m | logger.py | success | get_wind_speed completed in 0.00 sec
+2026-06-27 00:34:29,211 | [94mINFO    [0m | logger.py | info | Running get_wind_direction()
+2026-06-27 00:34:29,211 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-27 00:34:29,211 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-27 00:34:29,211 | [92mSUCCESS [0m | logger.py | success | get_wind_direction completed in 0.00 sec
+2026-06-27 00:34:29,211 | [94mINFO    [0m | logger.py | info | Running get_pressure()
+2026-06-27 00:34:29,211 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-27 00:34:29,211 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-27 00:34:29,211 | [92mSUCCESS [0m | logger.py | success | get_pressure completed in 0.00 sec
+2026-06-27 00:34:29,211 | [94mINFO    [0m | logger.py | info | Running get_precipitation()
+2026-06-27 00:34:29,211 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-27 00:34:29,211 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-27 00:34:29,213 | [92mSUCCESS [0m | logger.py | success | get_precipitation completed in 0.00 sec
+2026-06-27 00:34:29,213 | [94mINFO    [0m | logger.py | info | Running get_solar_radiation()
+2026-06-27 00:34:29,213 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-27 00:34:29,213 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-27 00:34:29,213 | [92mSUCCESS [0m | logger.py | success | get_solar_radiation completed in 0.00 sec
+2026-06-27 00:34:29,213 | [94mINFO    [0m | logger.py | info | Running get_feature_stack()
+2026-06-27 00:34:29,213 | [94mINFO    [0m | logger.py | info | Running get_temperature()
+2026-06-27 00:34:29,213 | [92mSUCCESS [0m | logger.py | success | get_temperature completed in 0.00 sec
+2026-06-27 00:34:29,213 | [94mINFO    [0m | logger.py | info | Running get_humidity()
+2026-06-27 00:34:29,213 | [92mSUCCESS [0m | logger.py | success | get_humidity completed in 0.00 sec
+2026-06-27 00:34:29,213 | [94mINFO    [0m | logger.py | info | Running get_wind_speed()
+2026-06-27 00:34:29,213 | [92mSUCCESS [0m | logger.py | success | get_wind_speed completed in 0.00 sec
+2026-06-27 00:34:29,213 | [94mINFO    [0m | logger.py | info | Running get_wind_direction()
+2026-06-27 00:34:29,213 | [92mSUCCESS [0m | logger.py | success | get_wind_direction completed in 0.00 sec
+2026-06-27 00:34:29,215 | [94mINFO    [0m | logger.py | info | Running get_pressure()
+2026-06-27 00:34:29,215 | [92mSUCCESS [0m | logger.py | success | get_pressure completed in 0.00 sec
+2026-06-27 00:34:29,215 | [94mINFO    [0m | logger.py | info | Running get_precipitation()
+2026-06-27 00:34:29,215 | [92mSUCCESS [0m | logger.py | success | get_precipitation completed in 0.00 sec
+2026-06-27 00:34:29,215 | [94mINFO    [0m | logger.py | info | Running get_solar_radiation()
+2026-06-27 00:34:29,215 | [92mSUCCESS [0m | logger.py | success | get_solar_radiation completed in 0.00 sec
+2026-06-27 00:34:29,215 | [92mSUCCESS [0m | logger.py | success | get_feature_stack completed in 0.00 sec
+2026-06-27 00:34:29,215 | [92mSUCCESS [0m | logger.py | success | generate_all completed in 0.01 sec
+2026-06-27 00:34:29,215 | [94mINFO    [0m | logger.py | info | Running generate_all()
+2026-06-27 00:34:29,215 | [94mINFO    [0m | logger.py | info | Running get_population()
+2026-06-27 00:34:29,215 | [94mINFO    [0m | logger.py | info | Running create_composite()
+2026-06-27 00:34:29,215 | [92mSUCCESS [0m | logger.py | success | create_composite completed in 0.00 sec
+2026-06-27 00:34:29,215 | [92mSUCCESS [0m | logger.py | success | get_population completed in 0.00 sec
+2026-06-27 00:34:29,217 | [94mINFO    [0m | logger.py | info | Running get_population_density()
+2026-06-27 00:34:29,217 | [94mINFO    [0m | logger.py | info | Running get_population()
+2026-06-27 00:34:29,217 | [92mSUCCESS [0m | logger.py | success | get_population completed in 0.00 sec
+2026-06-27 00:34:29,217 | [92mSUCCESS [0m | logger.py | success | get_population_density completed in 0.00 sec
+2026-06-27 00:34:29,220 | [94mINFO    [0m | logger.py | info | Running get_urban_population()
+2026-06-27 00:34:29,220 | [94mINFO    [0m | logger.py | info | Running get_population()
+2026-06-27 00:34:29,220 | [92mSUCCESS [0m | logger.py | success | get_population completed in 0.00 sec
+2026-06-27 00:34:29,220 | [94mINFO    [0m | logger.py | info | Running get_population()
+2026-06-27 00:34:29,220 | [92mSUCCESS [0m | logger.py | success | get_population completed in 0.00 sec
+2026-06-27 00:34:29,220 | [92mSUCCESS [0m | logger.py | success | get_urban_population completed in 0.00 sec
+2026-06-27 00:34:29,220 | [94mINFO    [0m | logger.py | info | Running get_population_exposure()
+2026-06-27 00:34:29,220 | [94mINFO    [0m | logger.py | info | Running get_population_density()
+2026-06-27 00:34:29,220 | [92mSUCCESS [0m | logger.py | success | get_population_density completed in 0.00 sec
+2026-06-27 00:34:29,220 | [92mSUCCESS [0m | logger.py | success | get_population_exposure completed in 0.00 sec
+2026-06-27 00:34:29,220 | [94mINFO    [0m | logger.py | info | Running get_feature_stack()
+2026-06-27 00:34:29,220 | [94mINFO    [0m | logger.py | info | Running get_population()
+2026-06-27 00:34:29,220 | [92mSUCCESS [0m | logger.py | success | get_population completed in 0.00 sec
+2026-06-27 00:34:29,220 | [94mINFO    [0m | logger.py | info | Running get_population_density()
+2026-06-27 00:34:29,220 | [92mSUCCESS [0m | logger.py | success | get_population_density completed in 0.00 sec
+2026-06-27 00:34:29,220 | [94mINFO    [0m | logger.py | info | Running get_urban_population()
+2026-06-27 00:34:29,220 | [92mSUCCESS [0m | logger.py | success | get_urban_population completed in 0.00 sec
+2026-06-27 00:34:29,220 | [94mINFO    [0m | logger.py | info | Running get_population_exposure()
+2026-06-27 00:34:29,220 | [92mSUCCESS [0m | logger.py | success | get_population_exposure completed in 0.00 sec
+2026-06-27 00:34:29,220 | [92mSUCCESS [0m | logger.py | success | get_feature_stack completed in 0.00 sec
+2026-06-27 00:34:29,228 | [92mSUCCESS [0m | logger.py | success | generate_all completed in 0.01 sec
+2026-06-27 00:34:29,230 | [94mINFO    [0m | logger.py | info | Running generate_all()
+2026-06-27 00:34:29,231 | [94mINFO    [0m | logger.py | info | Running get_builtup()
+2026-06-27 00:34:29,231 | [92mSUCCESS [0m | logger.py | success | get_builtup completed in 0.00 sec
+2026-06-27 00:34:29,232 | [94mINFO    [0m | logger.py | info | Running get_building_density()
+2026-06-27 00:34:29,232 | [94mINFO    [0m | logger.py | info | Running get_builtup()
+2026-06-27 00:34:29,232 | [92mSUCCESS [0m | logger.py | success | get_builtup completed in 0.00 sec
+2026-06-27 00:34:29,232 | [92mSUCCESS [0m | logger.py | success | get_building_density completed in 0.00 sec
+2026-06-27 00:34:29,233 | [94mINFO    [0m | logger.py | info | Running get_road_density()
+2026-06-27 00:34:29,233 | [92mSUCCESS [0m | logger.py | success | get_road_density completed in 0.00 sec
+2026-06-27 00:34:29,234 | [94mINFO    [0m | logger.py | info | Running get_night_lights()
+2026-06-27 00:34:29,234 | [92mSUCCESS [0m | logger.py | success | get_night_lights completed in 0.00 sec
+2026-06-27 00:34:29,234 | [94mINFO    [0m | logger.py | info | Running get_urban_morphology()
+2026-06-27 00:34:29,235 | [94mINFO    [0m | logger.py | info | Running get_builtup()
+2026-06-27 00:34:29,235 | [92mSUCCESS [0m | logger.py | success | get_builtup completed in 0.00 sec
+2026-06-27 00:34:29,235 | [94mINFO    [0m | logger.py | info | Running get_builtup()
+2026-06-27 00:34:29,235 | [92mSUCCESS [0m | logger.py | success | get_builtup completed in 0.00 sec
+2026-06-27 00:34:29,236 | [92mSUCCESS [0m | logger.py | success | get_urban_morphology completed in 0.00 sec
+2026-06-27 00:34:29,236 | [94mINFO    [0m | logger.py | info | Running get_impervious_surface()
+2026-06-27 00:34:29,236 | [94mINFO    [0m | logger.py | info | Running get_builtup()
+2026-06-27 00:34:29,236 | [92mSUCCESS [0m | logger.py | success | get_builtup completed in 0.00 sec
+2026-06-27 00:34:29,236 | [94mINFO    [0m | logger.py | info | Running get_night_lights()
+2026-06-27 00:34:29,236 | [92mSUCCESS [0m | logger.py | success | get_night_lights completed in 0.00 sec
+2026-06-27 00:34:29,237 | [92mSUCCESS [0m | logger.py | success | get_impervious_surface completed in 0.00 sec
+2026-06-27 00:34:29,237 | [94mINFO    [0m | logger.py | info | Running get_feature_stack()
+2026-06-27 00:34:29,237 | [94mINFO    [0m | logger.py | info | Running get_builtup()
+2026-06-27 00:34:29,237 | [92mSUCCESS [0m | logger.py | success | get_builtup completed in 0.00 sec
+2026-06-27 00:34:29,237 | [94mINFO    [0m | logger.py | info | Running get_building_density()
+2026-06-27 00:34:29,238 | [92mSUCCESS [0m | logger.py | success | get_building_density completed in 0.00 sec
+2026-06-27 00:34:29,238 | [94mINFO    [0m | logger.py | info | Running get_road_density()
+2026-06-27 00:34:29,238 | [92mSUCCESS [0m | logger.py | success | get_road_density completed in 0.00 sec
+2026-06-27 00:34:29,238 | [94mINFO    [0m | logger.py | info | Running get_night_lights()
+2026-06-27 00:34:29,238 | [92mSUCCESS [0m | logger.py | success | get_night_lights completed in 0.00 sec
+2026-06-27 00:34:29,238 | [94mINFO    [0m | logger.py | info | Running get_urban_morphology()
+2026-06-27 00:34:29,239 | [92mSUCCESS [0m | logger.py | success | get_urban_morphology completed in 0.00 sec
+2026-06-27 00:34:29,239 | [94mINFO    [0m | logger.py | info | Running get_impervious_surface()
+2026-06-27 00:34:29,239 | [92mSUCCESS [0m | logger.py | success | get_impervious_surface completed in 0.00 sec
+2026-06-27 00:34:29,239 | [92mSUCCESS [0m | logger.py | success | get_feature_stack completed in 0.00 sec
+2026-06-27 00:34:29,240 | [92mSUCCESS [0m | logger.py | success | generate_all completed in 0.01 sec
+2026-06-27 00:34:29,240 | [92mSUCCESS [0m | logger.py | success | generate_all completed in 0.07 sec
+2026-06-27 00:34:29,240 | [94mINFO    [0m | logger.py | info | Running build_feature_cube()
+2026-06-27 00:34:29,240 | [94mINFO    [0m | logger.py | info | Running get_feature_stack()
+2026-06-27 00:34:29,240 | [94mINFO    [0m | logger.py | info | Running get_indices()
+2026-06-27 00:34:29,240 | [92mSUCCESS [0m | logger.py | success | get_indices completed in 0.00 sec
+2026-06-27 00:34:29,241 | [92mSUCCESS [0m | logger.py | success | get_feature_stack completed in 0.00 sec
+2026-06-27 00:34:29,241 | [94mINFO    [0m | logger.py | info | Running get_feature_stack()
+2026-06-27 00:34:29,241 | [92mSUCCESS [0m | logger.py | success | get_feature_stack completed in 0.00 sec
+2026-06-27 00:34:29,241 | [94mINFO    [0m | logger.py | info | Running get_feature_stack()
+2026-06-27 00:34:29,241 | [92mSUCCESS [0m | logger.py | success | get_feature_stack completed in 0.00 sec
+2026-06-27 00:34:29,242 | [94mINFO    [0m | logger.py | info | Running get_feature_stack()
+2026-06-27 00:34:29,242 | [92mSUCCESS [0m | logger.py | success | get_feature_stack completed in 0.00 sec
+2026-06-27 00:34:29,242 | [94mINFO    [0m | logger.py | info | Running get_feature_stack()
+2026-06-27 00:34:29,242 | [92mSUCCESS [0m | logger.py | success | get_feature_stack completed in 0.00 sec
+2026-06-27 00:34:29,242 | [94mINFO    [0m | logger.py | info | Running get_feature_stack()
+2026-06-27 00:34:29,242 | [92mSUCCESS [0m | logger.py | success | get_feature_stack completed in 0.00 sec
+2026-06-27 00:34:29,243 | [92mSUCCESS [0m | logger.py | success | build_feature_cube completed in 0.00 sec
+2026-06-27 00:34:29,243 | [94mINFO    [0m | logger.py | info | Pipeline Completed Successfully.
+2026-06-27 00:34:29,243 | [92mSUCCESS [0m | logger.py | success | run completed in 0.08 sec
